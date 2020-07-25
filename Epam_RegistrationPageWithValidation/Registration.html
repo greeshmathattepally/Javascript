@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Epam Registration</title>
+	<link rel="stylesheet" type="text/css" href="Registration.css">
+	<script src="Registration.js"></script>
+</head>
+<body>
+	<div class="tot">
+	<div class="overall">
+	    <h1>Registration Form</h1>
+	<form name='registration' onSubmit="return formValidation();">
+	
+	<div><label for="userid">UserId:</label></div>
+	<div><input type="text" name="userid"  /></div>
+	<br>
+	<div><label for="passid">Password:</label></div>
+	<div><input type="password" name="passid"  /></div>
+	<br>
+	<div><label for="username">Name:</label></div>
+	<div><input type="text" name="username"  /></div>
+	<br>
+	<div><label for="address">Address:</label></div>
+	<div><input type="text" name="address" /></div>
+	<br>
+	<div><label for="country">Country:</label></div>
+	<div><select name="country">
+	<option selected="" value="Default">(Please select a country)</option>
+	<option value="AF">Australia</option>
+	<option value="AL">Canada</option>
+	<option value="DZ">India</option>
+	<option value="AS">Russia</option>
+	<option value="AD">USA</option>
+	</select></div>
+	<br>
+	<div><label for="email">Email:</label></div>
+    <div><input type="text" name="email"  /></div>
+    <br>
+    <div ><input type="submit" name="submit" value="Submit" /></div>
+    <br>
+    
+</form>
+</div>
+</div>
+</body>
+</html>
